@@ -4,6 +4,24 @@ Interacting with AI to achieve results requires asking the right questions, ofte
 
 This guide will explain prompt engineering, why it is essential, and how you can master asking questions about AI systems. We will dive into the techniques, strategies, and best practices for crafting effective prompts and provide examples to illustrate how different prompts can yield vastly different outcomes.
 
+Prompt engineering is an emerging discipline that efficiently develops optimized prompts to apply language models to various tasks. Prompt engineering helps researchers understand the abilities and limits of large language models (LLMs). Using various prompt engineering techniques, you can often get better answers from the foundation models without spending effort and time retraining or fine-tuning them.
+
+Note that prompt engineering does not involve fine-tuning the model. The weights/parameters are adjusted using training data to optimize a cost function in fine-tuning. Model fine-tuning is generally an expensive process in terms of computation time and actual costs. Prompt engineering attempts to guide the trained foundation model (FM) to provide more relevant and accurate answers using various methods, such as better-worded questions, similar examples, intermediate steps, and logical reasoning.
+
+Prompt Engineering leverages the principle of “priming”: providing the model with a context of a few (3-5) examples of what the user expects the output to look like so that the model mimics the previously “primed” behaviour. By interacting with the LLM through a series of questions, statements, or instructions, users can effectively guide the LLM's understanding and adjust its behaviour according to the specific context of the conversation.
+
+In short, prompt engineering is a new and essential field for optimizing how you apply, develop, and understand language models, especially large ones. At its core, it is about designing prompts and interactions to expand what language technologies can do, address their weaknesses, and gain insights into their functioning. Prompt engineering equips us with strategies and techniques for pushing the boundaries of what is possible with language models and their applications.
+
+## Why is it relevant?
+The key ideas are:
+- Prompt engineering is the fastest way to harness the power of large language models.
+- Prompt engineering optimizes how you work with and direct language models.
+- It boosts abilities, improves safety, and provides understanding.
+- Prompt engineering incorporates various skills for interfacing with and advancing language models.
+- Prompt engineering enables new features like augmenting domain knowledge with language models without changing model parameters or fine-tuning.
+- Prompt engineering provides methods for interacting with, building, and grasping language models' capabilities.
+- Higher-quality prompt inputs lead to higher-quality outputs.
+
 ## What is Prompt Engineering?
 Prompt Engineering is designing and refining questions or commands to elicit the most useful, relevant, and accurate responses from an AI system. AI models work by interpreting the inputs they receive, and the structure, clarity, and context of these inputs determine the quality of the outputs.
 
@@ -150,3 +168,14 @@ When dealing with complex or technical subjects, providing an example within you
 
 Example: "Can you explain deep learning using an example of how it’s applied in autonomous vehicles?"
 
+## Some General Guidance
+AWS provides general guidance when creating and engineering prompts: 
+- Be clear and concise
+- Include context if needed
+- Use directives for the appropriate response type
+- Consider the output in the prompt
+- Start prompts with an interrogation 
+- Provide an example response 
+- Break up complex tasks
+- Experiment and be creative
+- Use prompt templates 
