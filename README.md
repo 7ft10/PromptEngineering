@@ -1,4 +1,4 @@
-# PromptEngineering
+# Prompt Engineering
 
 Interacting with AI to achieve results requires asking the right questions, often referred to as "prompts." The way you phrase a question or provide instructions can greatly influence the response you receive. This process of structuring and refining inputs is known as Prompt Engineering.
 
